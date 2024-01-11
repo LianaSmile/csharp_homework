@@ -1,7 +1,7 @@
 Console.Write("Enter the phrase: ");
 string inputString = Console.ReadLine();
 
-bool result = IsPalindromeRecursive(inputString.ToLower()); 
+bool result = IsPalindromeRecursive(inputString.ToLower());
 Console.WriteLine($"The string '{inputString}' is {(result ? "a palindrome" : "not a palindrome")}.");
 
 
